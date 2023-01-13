@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <title>一番簡単なサンプルをテスト</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name="author" content="雪乃☆雫">
+  <meta name="keywords" content="なでしこ,なでしこv3,日本語プログラミング言語,なでしこさん,ゲーム,PWA">
+  <meta name="description" content="日本語プログラミング言語「なでしこv3」のプログラムのこと"> 
+</head>
+
+<body>
+<!-- なでしこのプログラム -->
+<script type="なでしこ">
+#〇なでしこ始め▼〇
+#-----------------------------------------------------------------------
+# プラグインの取り込み
+！『https://snowdrops89.github.io/vis-network_nako3/vis-network.nako3』を取り込む。
+
+# 描画先はDOM親要素
+「#nako3_div」へDOM親要素設定。
+DOM親要素の「幅」に「400px」をDOMスタイル設定。
+DOM親要素の「高さ」に「400px」をDOMスタイル設定。
+
+# 表示するためのノードとエッジを設定
+ノード＝[
+    { id: 1, label: "Ａ" },
+    { id: 2, label: "Ｂ" },
+    { id: 3, label: "Ｃ" }
+]
+エッジ＝[
+    {from: 1, to: 2},
+    {from: 1, to: 3}
+]
+# 必要があれば、visネットワークオプションを編集。
+visネットワークオプション＝{
+    //physics : FALSE, //ぷよんぷよんと動くのを止める
+    //clickToUse : TRUE, //マウスで動かすのを止める
+    edges:{    //エッジを黒い矢印にする。
+        color : 黒色 ,
+        arrows : 'to',
+    }
+}
+
+# ネットワーク描画（描画先はDOM親要素）
+ノードとエッジでvisネットワーク描画。
+
+#-----------------------------------------------------------------------
+#〇なでしこ終り▲〇
+</script>
+<!--〇ソース始め▼〇-->
+<div id='nako3_div' class='nako3_div'></div>
+<!--〇ソース終り▲〇-->
+
+<!-- なでしこの実行エンジン -->
+<script defer type="text/javascript" src="https://nadesi.com/v3/cdn.php?v=3.4.4&f=release/wnako3.js&run"></script>
+
+<noscript>
+このプログラムは、日本語プログラミング言語「なでしこ３」で作成しています。<BR>
+Javascriptの動作する環境が必要です。Javascriptを有効にして下さい。<P>
+【対応ブラウザ】<BR>
+　・HTML5対応ブラウザ (Chrome /Safari /Edge /Firefox 等)<BR>
+　・スマホブラウザ (iOS Safari / Android標準ブラウザ)
+</noscript>
+</body>
+</html>
