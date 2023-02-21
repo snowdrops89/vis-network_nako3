@@ -2,7 +2,7 @@
 vis-networkを使って、なでしこ３でネットワーク図を書くNAKO3プラグイン
 
 ## 使い方
-　[なでしこ３貯蔵庫にライブラリとして公開しています。](https://n3s.nadesi.com/id.php?1778)
+　[なでしこ３貯蔵庫にライブラリとして公開しています。](https://n3s.nadesi.com/show/vis_network)
 
 　プログラム冒頭で取り込みます。
 
