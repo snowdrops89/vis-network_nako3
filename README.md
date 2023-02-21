@@ -1,5 +1,5 @@
 # vis-network_nako3
-vis-networkを使って、なでしこ３でネットワーク図を書くNAKO3プラグイン
+[vis-network](https://visjs.org/index.html#modules)を使って、なでしこ３でネットワーク図を書くNAKO3プラグイン。
 
 ## 使い方
 　[なでしこ３貯蔵庫にライブラリとして公開しています。](https://n3s.nadesi.com/show/vis_network)
